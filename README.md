@@ -1,3 +1,4 @@
+![demo](https://i.ibb.co/TkHNB8H/restaurant-listing.png)
 # Restaurants
 
 A restaurant listing app.
