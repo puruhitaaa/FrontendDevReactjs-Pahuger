@@ -136,7 +136,7 @@ type Params = {
 export const api = axios.create({
   baseURL: 'https://travel-advisor.p.rapidapi.com',
   headers: {
-    'X-RapidAPI-Key': '16df39f6e3mshf1df5ed0e86925ep17a45djsnbb72dc9f5b35',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
     'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
   }
 });
