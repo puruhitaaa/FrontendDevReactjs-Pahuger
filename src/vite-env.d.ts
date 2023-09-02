@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly RAPIDAPI_KEY: string
+  readonly VITE_RAPIDAPI_KEY: string
 }
 
 interface ImportMeta {
